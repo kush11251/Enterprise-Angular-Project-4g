@@ -1,0 +1,9 @@
+// Docker compose configuration
+version: '3'
+services:
+  app:
+    image: node:18
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: npm run build && npm run start
