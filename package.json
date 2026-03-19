@@ -1,0 +1,12 @@
+// Package configuration
+{
+  "name": "enterprise-angular-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/main.ts"
+  },
+  "dependencies": {
+    "@angular/core": "^14.0.0"
+  }
+}
